@@ -1,0 +1,28 @@
+.user {
+  position: relative;
+  width: 100vw;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  padding: 0 $main-pdlr;
+  box-sizing: border-box;
+  .user-avatar {
+    z-index: 1;
+  }
+  .nick-name {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 28px;
+    z-index: 1;
+  }
+  .yellow-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100vw;
+    border-radius: 0 0 40% 40%;
+    background-color: $main-color;
+    z-index: 0;
+  }
+}

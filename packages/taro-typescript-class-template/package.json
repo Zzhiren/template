@@ -1,0 +1,32 @@
+{
+  "name": "taro-typescript-class-template",
+  "version": "0.0.0",
+  "description": "Taro Typescript Class模板",
+  "keywords": [
+    "taro-typescript"
+  ],
+  "author": "Zzhiren <zzhirensos@163.com>",
+  "homepage": "https://github.com/Zzhiren/template/tree/main/packages/taro-typescript-class-template#readme",
+  "license": "ISC",
+  "main": "lib/taro-typescript-class-template.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://10.241.65.86:8081/repository/npm-group/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zzhiren/template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Zzhiren/template/issues"
+  }
+}

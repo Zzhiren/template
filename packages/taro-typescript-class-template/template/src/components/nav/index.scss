@@ -1,0 +1,36 @@
+@import "src/components/icon/index.scss";
+.nav {
+  font-size: 32px;
+  font-weight: 500;
+  width: 100vw;
+  height: 100px;
+  color: #333333;
+  position: fixed;
+  z-index: 100;
+  box-sizing: border-box;
+  top: 0;
+  background-color: #FED736;
+  @mixin flex-center {
+    display: flex;
+    align-items: center;
+  }
+  .nav-main {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .back {
+    width: 70px;
+    height: 100%;
+    @include flex-center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+  }
+
+  .title {
+  }
+}

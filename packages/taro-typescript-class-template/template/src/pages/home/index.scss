@@ -1,0 +1,46 @@
+.home {
+  height: 2000px;
+  box-sizing: border-box;
+  background-color: $main-bg;
+
+  .module-wrapper {
+    padding: 0 $main-pdlr;
+    margin-top: $main-mt;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    .service-module {
+      position: relative;
+      border-radius: $main-bdr;
+      background-color: #FFFFFF;
+      height: 200px;
+      //width: 200px
+      flex: 1;
+      .module-label {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        letter-spacing: 2px;
+        &_h1 {
+          color: #333333;
+          font-size: 28px;
+        }
+        &_h2 {
+          color: #666666;
+          font-size: 22px;
+        }
+      }
+      .module-icon {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .module-item {
+      margin-right: $main-mr;
+    }
+  }
+}
