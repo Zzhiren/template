@@ -3,5 +3,9 @@
   "version": "0.0.3",
   "description": "Taro Typescript Class模板",
   "keywords": [],
-  "author": ""
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a5b75bf234c8f5ff437bcd3df232556bf450e5dd"
 }
