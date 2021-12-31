@@ -1,0 +1,10 @@
+{
+  "name": "@cashrain/vue2-standard-template",
+  "version": "1.0.0",
+  "description": "vue2标准模板",
+  "author": "Zzhiren <zzhirensos@163.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

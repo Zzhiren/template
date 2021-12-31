@@ -2,8 +2,8 @@
   "name": "@cashrain/taro-typescript-class-template",
   "version": "0.0.4",
   "description": "Taro Typescript Class模板",
-  "keywords": [],
-  "author": "",
+  "author": "Zzhiren <zzhirensos@163.com>",
+  "license": "ISC",
   "publishConfig": {
     "access": "public"
   },
